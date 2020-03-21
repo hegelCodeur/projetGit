@@ -1,0 +1,55 @@
+*{
+	background: #545454;
+	font-family: Century Gothic;
+}
+
+#container {
+	width: 690px;
+	height: 500px;
+	margin: 0 auto;
+}
+
+.titre {
+	text-align: center;
+	color: #ffffff;
+	text-shadow: 0px 0px 12px #ccc;
+	font-size: 4.0em;  
+}
+
+.nav {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.nav li {
+    width: 169px;
+	display: inline-block;
+	text-align: center;
+	line-height: 40px;
+
+
+}
+
+.nav li a {	
+	    background: #fff;
+		color: #000;
+		text-decoration: none;
+	    margin: 0 -1px 0 0;
+	    display: block;
+	    font-weight: bold;
+}
+
+.nav li a:hover {	
+	    background: #000;
+		color: #fff;
+		text-decoration: none;
+	    margin: 0 -1px 0 0;
+	    display: block;
+}
+
+.pied {
+	text-align: center;
+	color: #ccc;
+}
+
